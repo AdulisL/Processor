@@ -20,7 +20,7 @@ module InstROM #(parameter A=10, W=9) (
 
 // need $readmemh or $readmemb to initialize all of the elements
   initial begin		   // load from external text file
-  	$readmemb("test.txt", inst_rom);
+  	$readmemb("prog1_mach.txt", inst_rom);
   end 
   
 endmodule

@@ -60,7 +60,7 @@ end
 // Lookup table to handle 10-bit program counter jumps w/ only 2 bits
 LUT LUT1(
 	.Addr    (TargSel),
-    .Target  (PCTarg)
+    .Target  (PCTarg) // output
     );
 
 // instruction ROM

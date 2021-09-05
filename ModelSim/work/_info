@@ -1,0 +1,464 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/work
+vALU
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 DXx4 work 11 Definitions 0 22 4BPM43Y54Sn`n4NgQAeSE3
+DXx4 work 11 ALU_sv_unit 0 22 64V9h4=kfcEZ?YZG9ZLVf1
+Z2 !s110 1630865726
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 [Jz5AXS=TF647Z]^:=Lh53
+In7^PiDMlGeRJ@Lm02C9:Y3
+!s105 ALU_sv_unit
+S1
+Z4 dC:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/ModelSim
+Z5 w1630798180
+Z6 8C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/ALU.sv
+Z7 FC:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/ALU.sv
+!i122 75
+L0 2 35
+Z8 OV;L;2020.1;71
+31
+Z9 !s108 1630865726.000000
+Z10 !s107 C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/ALU.sv|
+Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/ALU.sv|
+!i113 1
+Z12 o-work work -sv
+Z13 tCvgOpt 0
+n@a@l@u
+XALU_def
+R0
+Z14 !s110 1630865725
+!i10b 1
+!s100 HLZ_ghmA1QTJ@20jHP`L;1
+Z15 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I;60C5;jUiZ6GVNc:ROkX:2
+V;60C5;jUiZ6GVNc:ROkX:2
+S1
+R4
+w1630798006
+8C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/ALU_def.sv
+FC:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/ALU_def.sv
+!i122 64
+Z16 L0 2 0
+R8
+r1
+!s85 0
+31
+Z17 !s108 1630865725.000000
+!s107 C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/ALU_def.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/ALU_def.sv|
+!i113 1
+R12
+R13
+n@a@l@u_def
+XALU_sv_unit
+R0
+R1
+R2
+V64V9h4=kfcEZ?YZG9ZLVf1
+r1
+!s85 0
+!i10b 1
+!s100 ndQ<eM:0Z3CZ=CXo5;dWR3
+I64V9h4=kfcEZ?YZG9ZLVf1
+!i103 1
+S1
+R4
+R5
+R6
+R7
+!i122 75
+L0 1 0
+R8
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@a@l@u_sv_unit
+XControlUnit_def
+R0
+R14
+!i10b 1
+!s100 0cU`PU<UeaBIi;cb?Hc9T1
+R15
+IS5C6=e2C[QlB_`zNdKk0e2
+VS5C6=e2C[QlB_`zNdKk0e2
+S1
+R4
+w1629868256
+8C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/CRL_def.sv
+FC:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/CRL_def.sv
+!i122 65
+R16
+R8
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/CRL_def.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/CRL_def.sv|
+!i113 1
+R12
+R13
+n@control@unit_def
+vCtrl
+R0
+R1
+DXx4 work 12 CTRL_sv_unit 0 22 z9VeQ]5lZUEk:A5F7bC8c3
+Z18 !s110 1630865727
+R3
+r1
+!s85 0
+!i10b 1
+!s100 ?E;P_LKz=[nHI4SU2^dZ`2
+IPOzg5Ue=?@V>GIOKOMggi0
+!s105 CTRL_sv_unit
+S1
+R4
+Z19 w1630797973
+Z20 8C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/CTRL.sv
+Z21 FC:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/CTRL.sv
+!i122 76
+L0 5 29
+R8
+31
+R9
+!s107 C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/CTRL.sv|
+Z22 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/CTRL.sv|
+!i113 1
+R12
+R13
+n@ctrl
+XCTRL_sv_unit
+R0
+R1
+R18
+Vz9VeQ]5lZUEk:A5F7bC8c3
+r1
+!s85 0
+!i10b 1
+!s100 :Wn>B=em`USR=3okX>LN@2
+Iz9VeQ]5lZUEk:A5F7bC8c3
+!i103 1
+S1
+R4
+R19
+R20
+R21
+!i122 76
+L0 4 0
+R8
+31
+R9
+Z23 !s107 C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/CTRL.sv|
+R22
+!i113 1
+R12
+R13
+n@c@t@r@l_sv_unit
+vDataMem
+R0
+R14
+!i10b 1
+!s100 m?cac7YcgN4XHa29LzmHB0
+R15
+I2=6jzFj6I3R3@EGNMXSZ<2
+R3
+S1
+R4
+w1630805936
+8C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/DataMem.sv
+FC:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/DataMem.sv
+!i122 66
+L0 6 36
+R8
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/DataMem.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/DataMem.sv|
+!i113 1
+R12
+R13
+n@data@mem
+XDefinitions
+R0
+R2
+!i10b 1
+!s100 39ARMAMVBlUX?FzJdUE;;0
+R15
+I4BPM43Y54Sn`n4NgQAeSE3
+V4BPM43Y54Sn`n4NgQAeSE3
+S1
+R4
+w1630797883
+8C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/Definitions.sv
+FC:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/Definitions.sv
+!i122 67
+L0 3 0
+R8
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/Definitions.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/Definitions.sv|
+!i113 1
+R12
+R13
+n@definitions
+vencrypt_tb
+R0
+R2
+!i10b 1
+!s100 ^_8SI0W8o@H4EP=_5^^C03
+R15
+I00mj7^FjK?LNOSnh<hXlV0
+R3
+S1
+R4
+w1630863904
+8C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/program1_tb1.sv
+FC:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/program1_tb1.sv
+!i122 72
+L0 7 146
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/program1_tb1.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/program1_tb1.sv|
+!i113 1
+R12
+R13
+vInstROM
+R0
+R2
+!i10b 1
+!s100 LG@k@8@6`2Q:W58o3DQ3o3
+R15
+IJ@OCKY2dUm[WnilWMj6Da3
+R3
+S1
+R4
+w1630865711
+8C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/InstROM.sv
+FC:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/InstROM.sv
+!i122 68
+L0 12 15
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/InstROM.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/InstROM.sv|
+!i113 1
+R12
+R13
+n@inst@r@o@m
+vLUT
+R0
+Z24 DXx4 work 7 LUT_def 0 22 W6Df7LWS[ZV1bkTNQOA]a3
+DXx4 work 11 LUT_sv_unit 0 22 bU:Nh1V6;V_@@?mEQEc963
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 eVL6_8R85Q803l6;S7jTK1
+I^[8c[>DhokF=U[FCQ:HPT2
+!s105 LUT_sv_unit
+S1
+R4
+Z25 w1630807198
+Z26 8C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/LUT.sv
+Z27 FC:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/LUT.sv
+!i122 70
+L0 7 26
+R8
+31
+R9
+Z28 !s107 C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/LUT.sv|
+Z29 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/LUT.sv|
+!i113 1
+R12
+R13
+n@l@u@t
+XLUT_def
+R0
+R2
+!i10b 1
+!s100 KmYTiLS2F:BcPTcoD^Kl<2
+R15
+IW6Df7LWS[ZV1bkTNQOA]a3
+VW6Df7LWS[ZV1bkTNQOA]a3
+S1
+R4
+w1630459114
+8C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/LUT.def.sv
+FC:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/LUT.def.sv
+!i122 69
+R16
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/LUT.def.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/LUT.def.sv|
+!i113 1
+R12
+R13
+n@l@u@t_def
+XLUT_sv_unit
+R0
+R24
+R2
+VbU:Nh1V6;V_@@?mEQEc963
+r1
+!s85 0
+!i10b 1
+!s100 l?feEW<2lYHX7f=dh3:592
+IbU:Nh1V6;V_@@?mEQEc963
+!i103 1
+S1
+R4
+R25
+R26
+R27
+!i122 70
+Z30 L0 6 0
+R8
+31
+R9
+R28
+R29
+!i113 1
+R12
+R13
+n@l@u@t_sv_unit
+vProgCtr
+R0
+R2
+!i10b 1
+!s100 OXG4MLam9VOM<1R>2>kM21
+R15
+I9Im^a<7LAn6zOgm@FH2Vc2
+R3
+S1
+R4
+w1630448027
+8C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/ProgCtr.sv
+FC:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/ProgCtr.sv
+!i122 71
+L0 8 19
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/ProgCtr.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/ProgCtr.sv|
+!i113 1
+R12
+R13
+n@prog@ctr
+vRegFile
+R0
+R2
+!i10b 1
+!s100 E@R@z8hXZRC?3iV=23;Q]3
+R15
+IIoT]LBT9Bb26K1L@3eW>13
+R3
+S1
+R4
+w1630798105
+8C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/RegFile.sv
+FC:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/RegFile.sv
+!i122 73
+L0 10 28
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/RegFile.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/RegFile.sv|
+!i113 1
+R12
+R13
+n@reg@file
+vTopLevel
+R0
+R1
+DXx4 work 16 TopLevel_sv_unit 0 22 Z<gz0ERPLM0jVl6lAFm<N3
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 adWYe@BZ6PzTm7[cS_kbg0
+IH:IO?1360EDfPBY7FX1;G3
+!s105 TopLevel_sv_unit
+S1
+R4
+Z31 w1630807115
+Z32 8C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/TopLevel.sv
+Z33 FC:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/TopLevel.sv
+!i122 74
+L0 7 115
+R8
+31
+R9
+Z34 !s107 C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/TopLevel.sv|
+Z35 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/TopLevel.sv|
+!i113 1
+R12
+R13
+n@top@level
+XTopLevel_sv_unit
+R0
+R1
+R2
+VZ<gz0ERPLM0jVl6lAFm<N3
+r1
+!s85 0
+!i10b 1
+!s100 ZfT?mSM9jg>Q8d30zDh5X0
+IZ<gz0ERPLM0jVl6lAFm<N3
+!i103 1
+S1
+R4
+R31
+R32
+R33
+!i122 74
+R30
+R8
+31
+R9
+R34
+R35
+!i113 1
+R12
+R13
+n@top@level_sv_unit

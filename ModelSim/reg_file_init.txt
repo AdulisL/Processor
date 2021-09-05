@@ -1,0 +1,7 @@
+00      // reg_file[0] r0
+01      // reg_file[1] r1
+02      // reg_file[2] r2
+03      // reg_file[3] r3
+04      // reg_file[4] r4
+05      // reg_file[5] r5
+0A      // reg_file[10] r6

@@ -1,0 +1,188 @@
+# Errors: 1, Warnings: 0
+# Errors: 0, Warnings: 0
+# Compile of ALU_def.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of CRL_def.sv was successful.
+# Errors: 1, Warnings: 0
+# Errors: 0, Warnings: 0
+# Compile of DataMem.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of Definitions.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of InstROM.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of LUT.def.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of LUT.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of ProgCtr.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of program1_tb1.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of RegFile.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of TopLevel.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of ALU.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of CTRL.sv was successful.
+# Compile of ALU_def.sv was successful.
+# Compile of CRL_def.sv was successful.
+# Compile of DataMem.sv was successful.
+# Compile of Definitions.sv was successful.
+# Compile of InstROM.sv was successful.
+# Compile of LUT.def.sv was successful.
+# Compile of LUT.sv was successful.
+# Compile of ProgCtr.sv was successful.
+# Compile of program1_tb1.sv was successful.
+# Compile of RegFile.sv was successful.
+# Compile of TopLevel.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of CTRL.sv was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui work.encrypt_tb
+# vsim -gui work.encrypt_tb 
+# Start time: 10:30:20 on Sep 05,2021
+# Loading sv_std.std
+# Loading work.encrypt_tb
+# ** Error: (vsim-3033) Instantiation of 'top_level' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /encrypt_tb File: C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/program1_tb1.sv Line: 67
+#         Searched libraries:
+#             C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/ModelSim/work
+# Error loading design
+# End time: 10:30:21 on Sep 05,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 6
+# Compile of ALU_def.sv was successful.
+# Compile of CRL_def.sv was successful.
+# Compile of DataMem.sv was successful.
+# Compile of Definitions.sv was successful.
+# Compile of InstROM.sv was successful.
+# Compile of LUT.def.sv was successful.
+# Compile of LUT.sv was successful.
+# Compile of ProgCtr.sv was successful.
+# Compile of program1_tb1.sv failed with 2 errors.
+# Compile of RegFile.sv was successful.
+# Compile of TopLevel.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of CTRL.sv was successful.
+# 13 compiles, 1 failed with 2 errors.
+# Compile of ALU_def.sv was successful.
+# Compile of CRL_def.sv was successful.
+# Compile of DataMem.sv was successful.
+# Compile of Definitions.sv was successful.
+# Compile of InstROM.sv was successful.
+# Compile of LUT.def.sv was successful.
+# Compile of LUT.sv was successful.
+# Compile of ProgCtr.sv was successful.
+# Compile of program1_tb1.sv was successful.
+# Compile of RegFile.sv was successful.
+# Compile of TopLevel.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of CTRL.sv was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui work.encrypt_tb
+# vsim -gui work.encrypt_tb 
+# Start time: 10:45:24 on Sep 05,2021
+# Loading sv_std.std
+# Loading work.encrypt_tb
+# Loading work.Definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.ProgCtr
+# Loading work.CTRL_sv_unit
+# Loading work.Ctrl
+# Loading work.LUT_def
+# Loading work.LUT_sv_unit
+# Loading work.LUT
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.DataMem
+add wave -position insertpoint sim:/encrypt_tb/DUT/*
+add wave -position insertpoint  \
+sim:/encrypt_tb/DUT/RF1/Registers
+add wave -position insertpoint  \
+sim:/encrypt_tb/DUT/RF1/RaddrA \
+sim:/encrypt_tb/DUT/RF1/RaddrB \
+sim:/encrypt_tb/DUT/RF1/Waddr \
+sim:/encrypt_tb/DUT/RF1/DataIn \
+sim:/encrypt_tb/DUT/RF1/DataOutA \
+sim:/encrypt_tb/DUT/RF1/DataOutB
+add wave -position insertpoint  \
+sim:/encrypt_tb/DUT/DM1/Core
+add wave -position insertpoint  \
+sim:/encrypt_tb/DUT/DM1/DataAddress \
+sim:/encrypt_tb/DUT/DM1/DataIn \
+sim:/encrypt_tb/DUT/DM1/DataOut
+run
+run
+# Compile of ALU_def.sv was successful.
+# Compile of CRL_def.sv was successful.
+# Compile of DataMem.sv was successful.
+# Compile of Definitions.sv was successful.
+# Compile of InstROM.sv was successful.
+# Compile of LUT.def.sv was successful.
+# Compile of LUT.sv was successful.
+# Compile of ProgCtr.sv was successful.
+# Compile of program1_tb1.sv was successful.
+# Compile of RegFile.sv was successful.
+# Compile of TopLevel.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of CTRL.sv was successful.
+# 13 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.encrypt_tb
+# Loading work.Definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.ProgCtr
+# Loading work.CTRL_sv_unit
+# Loading work.Ctrl
+# Loading work.LUT_def
+# Loading work.LUT_sv_unit
+# Loading work.LUT
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.DataMem
+run
+run
+# Compile of ALU_def.sv was successful.
+# Compile of CRL_def.sv was successful.
+# Compile of DataMem.sv was successful.
+# Compile of Definitions.sv was successful.
+# Compile of InstROM.sv was successful.
+# Compile of LUT.def.sv was successful.
+# Compile of LUT.sv was successful.
+# Compile of ProgCtr.sv was successful.
+# Compile of program1_tb1.sv was successful.
+# Compile of RegFile.sv was successful.
+# Compile of TopLevel.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of CTRL.sv was successful.
+# 13 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.encrypt_tb
+# Loading work.Definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.ProgCtr
+# Loading work.CTRL_sv_unit
+# Loading work.Ctrl
+# Loading work.LUT_def
+# Loading work.LUT_sv_unit
+# Loading work.LUT
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.DataMem
+run
+run -all
+# ** Note: $stop    : C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/program1_tb1.sv(144)
+#    Time: 255 ns  Iteration: 0  Instance: /encrypt_tb
+# Break in Module encrypt_tb at C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/program1_tb1.sv line 144
