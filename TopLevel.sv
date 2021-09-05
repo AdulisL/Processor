@@ -33,7 +33,7 @@ wire        MemWriteEn,	   // data_memory write enable
 logic[15:0] CycleCt;	   // standalone; NOT PC!
 
 assign Opcode = Instruction[8:6];
-assign BranchEn  = (Opcode == 3'b110);
+assign BranchEn  = (Opcode == 3'b110); // swich for BNE
 always_comb begin
 	ALU_type = OP_enum'(Opcode);
 end
@@ -107,11 +107,11 @@ ALU ALU1  (
 	  .Odd       (Odd)
  );
   
-assign MemWriteValue = ALU_out;  // 2:1 switch into reg_file
+assign MemWriteValue = ReadA;  // 2:1 switch into reg_file
 DataMem DM1(
 		.Clk          (Clk)			 ,
 		.Reset		  (Reset)		 ,
-		.DataAddress  (ReadA)	 	 , 	// input ReadA data in address
+		.DataAddress  (ReadA) , 	// input ReadA data in address
 		.WriteEn      (MemWriteEn)	 , 	// input data memory write enabled 
 		.DataIn       (MemWriteValue), 	// input data to memory 
 		.DataOut      (MemReadValue)    // output, data to read from memory

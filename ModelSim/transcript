@@ -135,3 +135,278 @@ run -all
 # ** Note: $stop    : C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/program1_tb1.sv(144)
 #    Time: 155 ns  Iteration: 0  Instance: /encrypt_tb
 # Break in Module encrypt_tb at C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/program1_tb1.sv line 144
+# Compile of ALU_def.sv was successful.
+# Compile of CRL_def.sv was successful.
+# Compile of DataMem.sv was successful.
+# Compile of Definitions.sv was successful.
+# Compile of InstROM.sv was successful.
+# Compile of LUT.def.sv was successful.
+# Compile of LUT.sv was successful.
+# Compile of ProgCtr.sv was successful.
+# Compile of program1_tb1.sv was successful.
+# Compile of RegFile.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of CTRL.sv was successful.
+# Compile of TopLevel.sv was successful.
+# 13 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.encrypt_tb
+# Loading work.Definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.ProgCtr
+# Loading work.CTRL_sv_unit
+# Loading work.Ctrl
+# Loading work.LUT_def
+# Loading work.LUT_sv_unit
+# Loading work.LUT
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.DataMem
+run
+run -all
+# ** Note: $stop    : C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/program1_tb1.sv(144)
+#    Time: 355 ns  Iteration: 0  Instance: /encrypt_tb
+# Break in Module encrypt_tb at C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/program1_tb1.sv line 144
+# Compile of ALU_def.sv was successful.
+# Compile of CRL_def.sv was successful.
+# Compile of DataMem.sv was successful.
+# Compile of Definitions.sv was successful.
+# Compile of InstROM.sv was successful.
+# Compile of LUT.def.sv was successful.
+# Compile of LUT.sv was successful.
+# Compile of ProgCtr.sv was successful.
+# Compile of program1_tb1.sv was successful.
+# Compile of RegFile.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of CTRL.sv was successful.
+# Compile of TopLevel.sv was successful.
+# 13 compiles, 0 failed with no errors.
+# Compile of ALU_def.sv was successful.
+# Compile of CRL_def.sv was successful.
+# Compile of DataMem.sv was successful.
+# Compile of Definitions.sv was successful.
+# Compile of InstROM.sv was successful.
+# Compile of LUT.def.sv was successful.
+# Compile of LUT.sv was successful.
+# Compile of ProgCtr.sv was successful.
+# Compile of program1_tb1.sv was successful.
+# Compile of RegFile.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of CTRL.sv was successful.
+# Compile of TopLevel.sv was successful.
+# 13 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.encrypt_tb
+# Loading work.Definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.ProgCtr
+# Loading work.CTRL_sv_unit
+# Loading work.Ctrl
+# Loading work.LUT_def
+# Loading work.LUT_sv_unit
+# Loading work.LUT
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.DataMem
+run -all
+# ** Note: $stop    : C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/program1_tb1.sv(144)
+#    Time: 355 ns  Iteration: 0  Instance: /encrypt_tb
+# Break in Module encrypt_tb at C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/program1_tb1.sv line 144
+# Compile of ALU_def.sv was successful.
+# Compile of CRL_def.sv was successful.
+# Compile of DataMem.sv was successful.
+# Compile of Definitions.sv was successful.
+# Compile of InstROM.sv was successful.
+# Compile of LUT.def.sv was successful.
+# Compile of LUT.sv was successful.
+# Compile of ProgCtr.sv was successful.
+# Compile of program1_tb1.sv was successful.
+# Compile of RegFile.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of CTRL.sv was successful.
+# Compile of TopLevel.sv was successful.
+# 13 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.encrypt_tb
+# Loading work.Definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.ProgCtr
+# Loading work.CTRL_sv_unit
+# Loading work.Ctrl
+# Loading work.LUT_def
+# Loading work.LUT_sv_unit
+# Loading work.LUT
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.DataMem
+run -all
+# ** Warning: (vsim-PLI-3409) Illegal binary digit 's' in data on line 14 of file "prac_mach.txt".    : C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/InstROM.sv(23)
+#    Time: 0 ps  Iteration: 0  Instance: /encrypt_tb/DUT/IR1
+# ** Warning: (vsim-PLI-3409) Illegal binary digit 't' in data on line 14 of file "prac_mach.txt".    : C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/InstROM.sv(23)
+#    Time: 0 ps  Iteration: 0  Instance: /encrypt_tb/DUT/IR1
+# ** Warning: (vsim-PLI-3409) Illegal binary digit 'e' in data on line 14 of file "prac_mach.txt".    : C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/InstROM.sv(23)
+#    Time: 0 ps  Iteration: 0  Instance: /encrypt_tb/DUT/IR1
+# ** Warning: (vsim-PLI-3409) Illegal binary digit 'p' in data on line 14 of file "prac_mach.txt".    : C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/InstROM.sv(23)
+#    Time: 0 ps  Iteration: 0  Instance: /encrypt_tb/DUT/IR1
+# ** Warning: (vsim-PLI-3409) Illegal binary digit ':' in data on line 14 of file "prac_mach.txt".    : C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/InstROM.sv(23)
+#    Time: 0 ps  Iteration: 0  Instance: /encrypt_tb/DUT/IR1
+# Compile of ALU_def.sv was successful.
+# Compile of CRL_def.sv was successful.
+# Compile of DataMem.sv was successful.
+# Compile of Definitions.sv was successful.
+# Compile of InstROM.sv was successful.
+# Compile of LUT.def.sv was successful.
+# Compile of LUT.sv was successful.
+# Compile of ProgCtr.sv was successful.
+# Compile of program1_tb1.sv was successful.
+# Compile of RegFile.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of CTRL.sv was successful.
+# Compile of TopLevel.sv was successful.
+# 13 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.encrypt_tb
+# Loading work.Definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.ProgCtr
+# Loading work.CTRL_sv_unit
+# Loading work.Ctrl
+# Loading work.LUT_def
+# Loading work.LUT_sv_unit
+# Loading work.LUT
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.DataMem
+run -all
+# ** Note: $stop    : C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/program1_tb1.sv(144)
+#    Time: 175 ns  Iteration: 0  Instance: /encrypt_tb
+# Break in Module encrypt_tb at C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/program1_tb1.sv line 144
+# Compile of ALU_def.sv was successful.
+# Compile of CRL_def.sv was successful.
+# Compile of DataMem.sv was successful.
+# Compile of Definitions.sv was successful.
+# Compile of InstROM.sv was successful.
+# Compile of LUT.def.sv was successful.
+# Compile of LUT.sv was successful.
+# Compile of ProgCtr.sv was successful.
+# Compile of program1_tb1.sv was successful.
+# Compile of RegFile.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of CTRL.sv was successful.
+# Compile of TopLevel.sv was successful.
+# 13 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.encrypt_tb
+# Loading work.Definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.ProgCtr
+# Loading work.CTRL_sv_unit
+# Loading work.Ctrl
+# Loading work.LUT_def
+# Loading work.LUT_sv_unit
+# Loading work.LUT
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.DataMem
+run
+run -all
+# ** Note: $stop    : C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/program1_tb1.sv(144)
+#    Time: 185 ns  Iteration: 0  Instance: /encrypt_tb
+# Break in Module encrypt_tb at C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/program1_tb1.sv line 144
+restart
+run -all
+# ** Note: $stop    : C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/program1_tb1.sv(144)
+#    Time: 185 ns  Iteration: 0  Instance: /encrypt_tb
+# Break in Module encrypt_tb at C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/program1_tb1.sv line 144
+# Compile of ALU_def.sv was successful.
+# Compile of CRL_def.sv was successful.
+# Compile of DataMem.sv was successful.
+# Compile of Definitions.sv was successful.
+# Compile of InstROM.sv was successful.
+# Compile of LUT.def.sv was successful.
+# Compile of LUT.sv was successful.
+# Compile of ProgCtr.sv was successful.
+# Compile of program1_tb1.sv was successful.
+# Compile of RegFile.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of CTRL.sv was successful.
+# Compile of TopLevel.sv was successful.
+# 13 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.encrypt_tb
+# Loading work.Definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.ProgCtr
+# Loading work.CTRL_sv_unit
+# Loading work.Ctrl
+# Loading work.LUT_def
+# Loading work.LUT_sv_unit
+# Loading work.LUT
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.DataMem
+run -all
+# ** Note: $stop    : C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/program1_tb1.sv(144)
+#    Time: 175 ns  Iteration: 0  Instance: /encrypt_tb
+# Break in Module encrypt_tb at C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/program1_tb1.sv line 144
+# Compile of ALU_def.sv was successful.
+# Compile of CRL_def.sv was successful.
+# Compile of DataMem.sv was successful.
+# Compile of Definitions.sv was successful.
+# Compile of InstROM.sv was successful.
+# Compile of LUT.def.sv was successful.
+# Compile of LUT.sv was successful.
+# Compile of ProgCtr.sv was successful.
+# Compile of program1_tb1.sv was successful.
+# Compile of RegFile.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of CTRL.sv was successful.
+# Compile of TopLevel.sv was successful.
+# 13 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.encrypt_tb
+# Loading work.Definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.ProgCtr
+# Loading work.CTRL_sv_unit
+# Loading work.Ctrl
+# Loading work.LUT_def
+# Loading work.LUT_sv_unit
+# Loading work.LUT
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.DataMem
+run -all
+# ** Note: $stop    : C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/program1_tb1.sv(144)
+#    Time: 175 ns  Iteration: 0  Instance: /encrypt_tb
+# Break in Module encrypt_tb at C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/program1_tb1.sv line 144
+# End time: 16:50:43 on Sep 05,2021, Elapsed time: 2:33:57
+# Errors: 0, Warnings: 1

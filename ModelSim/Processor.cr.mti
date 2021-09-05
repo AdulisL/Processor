@@ -7,13 +7,13 @@ Top level modules:
 
 } {} {}} {{C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/ProgCtr.sv}} {1 {vlog -work work -sv {C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/ProgCtr.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-Start time: 14:16:12 on Sep 05,2021
+Start time: 14:36:55 on Sep 05,2021
 vlog -reportprogress 300 -work work -sv C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/ProgCtr.sv 
 -- Compiling module ProgCtr
 
 Top level modules:
 	ProgCtr
-End time: 14:16:12 on Sep 05,2021, Elapsed time: 0:00:00
+End time: 14:36:55 on Sep 05,2021, Elapsed time: 0:00:00
 
 } {} {}} {C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/ALU.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/ALU.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -40,13 +40,13 @@ Top level modules:
 
 } {} {}} {{C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/Definitions.sv}} {1 {vlog -work work -sv {C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/Definitions.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-Start time: 14:16:10 on Sep 05,2021
+Start time: 14:36:54 on Sep 05,2021
 vlog -reportprogress 300 -work work -sv C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/Definitions.sv 
 -- Compiling package Definitions
 
 Top level modules:
 	--none--
-End time: 14:16:11 on Sep 05,2021, Elapsed time: 0:00:01
+End time: 14:36:54 on Sep 05,2021, Elapsed time: 0:00:00
 
 } {} {}} {C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/LUT.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/LUT.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -68,7 +68,7 @@ Top level modules:
 
 } {} {}} {{C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/LUT.sv}} {1 {vlog -work work -sv {C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/LUT.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-Start time: 14:16:11 on Sep 05,2021
+Start time: 14:36:55 on Sep 05,2021
 vlog -reportprogress 300 -work work -sv C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/LUT.sv 
 -- Compiling package LUT_sv_unit
 -- Importing package LUT_def
@@ -76,7 +76,7 @@ vlog -reportprogress 300 -work work -sv C:/Users/Meron Er/Documents/C.E/2021/Sum
 
 Top level modules:
 	LUT
-End time: 14:16:11 on Sep 05,2021, Elapsed time: 0:00:00
+End time: 14:36:55 on Sep 05,2021, Elapsed time: 0:00:00
 
 } {} {}} {C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/RegFile.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/RegFile.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -94,43 +94,33 @@ Top level modules:
 
 } {} {}} {{C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/CRL_def.sv}} {1 {vlog -work work -sv {C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/CRL_def.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-Start time: 14:16:10 on Sep 05,2021
+Start time: 14:36:54 on Sep 05,2021
 vlog -reportprogress 300 -work work -sv C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/CRL_def.sv 
 -- Compiling package ControlUnit_def
 
 Top level modules:
 	--none--
-End time: 14:16:10 on Sep 05,2021, Elapsed time: 0:00:00
+End time: 14:36:54 on Sep 05,2021, Elapsed time: 0:00:00
 
 } {} {}} {{C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/program1_tb1.sv}} {1 {vlog -work work -sv {C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/program1_tb1.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-Start time: 14:16:12 on Sep 05,2021
+Start time: 14:36:55 on Sep 05,2021
 vlog -reportprogress 300 -work work -sv C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/program1_tb1.sv 
 -- Compiling module encrypt_tb
 
 Top level modules:
 	encrypt_tb
-End time: 14:16:12 on Sep 05,2021, Elapsed time: 0:00:00
+End time: 14:36:55 on Sep 05,2021, Elapsed time: 0:00:00
 
 } {} {}} {{C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/ALU_def.sv}} {1 {vlog -work work -sv {C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/ALU_def.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-Start time: 14:16:10 on Sep 05,2021
+Start time: 14:36:54 on Sep 05,2021
 vlog -reportprogress 300 -work work -sv C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/ALU_def.sv 
 -- Compiling package ALU_def
 
 Top level modules:
 	--none--
-End time: 14:16:10 on Sep 05,2021, Elapsed time: 0:00:00
-
-} {} {}} {{C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/DataMem.sv}} {1 {vlog -work work -sv {C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/DataMem.sv}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-Start time: 14:16:10 on Sep 05,2021
-vlog -reportprogress 300 -work work -sv C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/DataMem.sv 
--- Compiling module DataMem
-
-Top level modules:
-	DataMem
-End time: 14:16:10 on Sep 05,2021, Elapsed time: 0:00:00
+End time: 14:36:54 on Sep 05,2021, Elapsed time: 0:00:00
 
 } {} {}} {C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/DataMem.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/DataMem.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -139,19 +129,29 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	DataMem
 
+} {} {}} {{C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/DataMem.sv}} {1 {vlog -work work -sv {C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/DataMem.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 14:36:54 on Sep 05,2021
+vlog -reportprogress 300 -work work -sv C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/DataMem.sv 
+-- Compiling module DataMem
+
+Top level modules:
+	DataMem
+End time: 14:36:54 on Sep 05,2021, Elapsed time: 0:00:00
+
 } {} {}} {{C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/LUT.def.sv}} {1 {vlog -work work -sv {C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/LUT.def.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-Start time: 14:16:11 on Sep 05,2021
+Start time: 14:36:55 on Sep 05,2021
 vlog -reportprogress 300 -work work -sv C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/LUT.def.sv 
 -- Compiling package LUT_def
 
 Top level modules:
 	--none--
-End time: 14:16:11 on Sep 05,2021, Elapsed time: 0:00:00
+End time: 14:36:55 on Sep 05,2021, Elapsed time: 0:00:00
 
 } {} {}} {{C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/ALU.sv}} {1 {vlog -work work -sv {C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/ALU.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-Start time: 14:16:13 on Sep 05,2021
+Start time: 14:36:55 on Sep 05,2021
 vlog -reportprogress 300 -work work -sv C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/ALU.sv 
 -- Compiling package ALU_sv_unit
 -- Importing package Definitions
@@ -159,21 +159,17 @@ vlog -reportprogress 300 -work work -sv C:/Users/Meron Er/Documents/C.E/2021/Sum
 
 Top level modules:
 	ALU
-End time: 14:16:13 on Sep 05,2021, Elapsed time: 0:00:00
+End time: 14:36:55 on Sep 05,2021, Elapsed time: 0:00:00
 
-} {} {}} {{C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/TopLevel.sv}} {1 {vlog -work work -sv {C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/TopLevel.sv}
+} {} {}} {{C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/TopLevel.sv}} {0 {vlog -work work -sv {C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/TopLevel.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-Start time: 14:16:13 on Sep 05,2021
+Start time: 14:36:56 on Sep 05,2021
 vlog -reportprogress 300 -work work -sv C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/TopLevel.sv 
--- Compiling package TopLevel_sv_unit
--- Importing package Definitions
--- Compiling module TopLevel
+** Error: (vlog-13069) C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/TopLevel.sv(36): near "=": syntax error, unexpected '='.
+** Error: C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/TopLevel.sv(36): (vlog-13205) Syntax error found in the scope following 'BranchEn'. Is there a missing '::'?
+End time: 14:36:56 on Sep 05,2021, Elapsed time: 0:00:00
 
-Top level modules:
-	TopLevel
-End time: 14:16:13 on Sep 05,2021, Elapsed time: 0:00:00
-
-} {} {}} {C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/Definitions.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/Definitions.sv}
+} {5.0 7.0} {}} {C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/Definitions.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/Definitions.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling package Definitions
 
@@ -182,17 +178,17 @@ Top level modules:
 
 } {} {}} {{C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/InstROM.sv}} {1 {vlog -work work -sv {C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/InstROM.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-Start time: 14:16:11 on Sep 05,2021
+Start time: 14:36:54 on Sep 05,2021
 vlog -reportprogress 300 -work work -sv C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/InstROM.sv 
 -- Compiling module InstROM
 
 Top level modules:
 	InstROM
-End time: 14:16:11 on Sep 05,2021, Elapsed time: 0:00:00
+End time: 14:36:55 on Sep 05,2021, Elapsed time: 0:00:01
 
 } {} {}} {{C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/CTRL.sv}} {1 {vlog -work work -sv {C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/CTRL.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-Start time: 14:16:13 on Sep 05,2021
+Start time: 14:36:56 on Sep 05,2021
 vlog -reportprogress 300 -work work -sv C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/CTRL.sv 
 -- Compiling package CTRL_sv_unit
 -- Importing package Definitions
@@ -200,17 +196,17 @@ vlog -reportprogress 300 -work work -sv C:/Users/Meron Er/Documents/C.E/2021/Sum
 
 Top level modules:
 	Ctrl
-End time: 14:16:13 on Sep 05,2021, Elapsed time: 0:00:00
+End time: 14:36:56 on Sep 05,2021, Elapsed time: 0:00:00
 
 } {} {}} {{C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/RegFile.sv}} {1 {vlog -work work -sv {C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/RegFile.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-Start time: 14:16:12 on Sep 05,2021
+Start time: 14:36:55 on Sep 05,2021
 vlog -reportprogress 300 -work work -sv C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/RegFile.sv 
 -- Compiling module RegFile
 
 Top level modules:
 	RegFile
-End time: 14:16:12 on Sep 05,2021, Elapsed time: 0:00:00
+End time: 14:36:55 on Sep 05,2021, Elapsed time: 0:00:00
 
 } {} {}} {C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/program1_tb1.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Processor/program1_tb1.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020

@@ -19,7 +19,7 @@ module ProgCtr #(parameter L=10) (	   // value of L should = A in InstROM
 	if(Reset)
 	  ProgCtr <= 0;				       // for first program; want different value for 2nd or 3rd
 	else if(BranchEn)   // conditional relative jump
-	  ProgCtr <= Target + ProgCtr;	   //   how would you make it unconditional and/or absolute
+	  ProgCtr <= Target + ProgCtr;	  //   how would you make it unconditional and/or absolute
 	else if(!Start)
 	  ProgCtr <= ProgCtr + 'b1; 	       // default increment (no need for ARM/MIPS +4 -- why?)
 

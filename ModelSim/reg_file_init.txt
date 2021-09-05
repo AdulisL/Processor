@@ -4,5 +4,5 @@
 03      // reg_file[3] r3
 04      // reg_file[4] r4
 05      // reg_file[5] r5
-0A      // reg_file[10] r10
-0F      // reg_file[15] r15
+06      // reg_file[5] r6
+07      // reg_file[5] r7

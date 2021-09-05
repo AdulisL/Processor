@@ -52,7 +52,7 @@ module encrypt_tb ()        ;
   end
 // now select a starting LFSR state -- any nonzero value will do
   always_comb begin					   
-    LFSR_init = $random>>2;          // or set a value, such as 7'b1, for debug
+    LFSR_init = $random>> 0;//2;          // or set a value, such as 7'b1, for debug
     if(!LFSR_init) LFSR_init = 7'b1; // prevents illegal starting state = 7'b0; 
   end
 

@@ -28,13 +28,16 @@ module DataMem #(parameter W=8, A=8)(
 */
     if(Reset) begin
 // you may initialize your memory w/ constants, if you wish
-      for(int i = 0; i < 256; i++)
-	        Core[i] <= 0;
-      Core[0]   <= 61;     // overrides the 0  ***sample only***
-      Core[1]   <= 62;			
-      Core[2]   <= 63;			
-      Core[3]   <= 64;			
+      // for(int i = 0; i < 256; i++)
+	    //     Core[i] <= 0;
+      Core[0]   <= 1;     // overrides the 0  ***sample only***
+      Core[1]   <= 64;			
+      Core[2]   <= 10;			
+      Core[3]   <= 15;			
       Core[4]   <= 10'h20;		
+      Core[5]   <= 61;			
+      Core[6]   <= 62;			
+      Core[7]   <= 63;			
   	end
     else if(WriteEn) 
       Core[DataAddress] <= DataIn;
