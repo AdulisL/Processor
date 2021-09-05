@@ -1,0 +1,32 @@
+lw r6 #1
+lw r7 #2
+lw r4 #3
+lw r5 #5
+lw r0 #0
+lw r1 #4
+lw r2
+xor r4 r2	
+sw r2 
+lw r3
+xor r5 r3
+xor r4 r3
+sw r3
+step_1
+	add r0 r0 
+	xor r0 r1
+bne step_1
+step_2
+	add r0 #1
+	xor r0 r1
+bne step_2
+step_3
+	and r3 r0
+	shift left r3 1
+	xor r3 r1
+	add r3 r3 
+	xor r3 r0
+bne step_3
+step_4
+	xor r2 r0
+	add r2 r2
+bne step_4
