@@ -224,22 +224,34 @@ x_lines = []
 for line in assembly_file:
     str_array = line.split()
     instruction = str_array[0]
+    tmp = ""
+    return_txt = ""
     
     if instruction == "//":
       continue
     elif instruction == "add" or instruction == "xor" or instruction == "and":
-        return_txt = func_0(str_array)
+        tmp = func_0(str_array)
+        return_txt = ''.join([tmp, " // ", line])
     elif instruction == "lw" or instruction == "sw" or instruction == "bne":
-        return_txt = func_1(str_array)
+        tmp = func_1(str_array)
+        return_txt = ''.join([tmp, " // ", line])
     elif instruction == "shift":
-        return_txt = func_shift(str_array)
+        tmp = func_shift(str_array)
+        return_txt = ''.join([tmp, " // ", line])
     elif instruction == "stp":
-        return_txt = "111111111"
+        return_txt = "111111111 // stp"
     elif "step_" in instruction:
         temp = instruction.replace("step_","")
         temp = temp.replace(":","")
-        return_txt += str(format(int(temp), "b"))
-        continue
+        tmp += str(format(int(temp), "b"))
+        tmp2 = 9 - len(tmp)
+        add_on = ""
+        if tmp2 != 0:
+            for i in range(tmp2):
+                add_on += "0"
+            tmp3 = ''.join([add_on, tmp])
+            tmp = tmp3
+        return_txt = ''.join([tmp, " // ", line])
     else:
         print("error: undefined opcode " + instruction)
         return_txt = instruction
