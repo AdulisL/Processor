@@ -10,6 +10,7 @@ module TopLevel(		   // you will have the same 3 ports
 	             Clk,	   // clock -- posedge used inside design
     output logic Ack	   // done flag from DUT
     );
+	bit bit_ext;
 OP_enum ALU_type;
 wire [ 2:0] Opcode;
 wire [ 9:0] PgmCtr, PCTarg; // program counter & forwarding/backwarding PgmCtr
@@ -32,7 +33,7 @@ wire        MemWriteEn,	   // data_memory write enable
 logic[15:0] CycleCt;	   // standalone; NOT PC!
 
 assign Opcode = Instruction[8:6];
-
+assign BranchEn  = (Opcode == 3'b110);
 always_comb begin
 	ALU_type = OP_enum'(Opcode);
 end
@@ -41,7 +42,7 @@ end
 	.Reset        (Reset   ) ,   // reset to 0
 	.Start        (Start   ) ,   // SystemVerilog shorthand for .grape(grape) is just .grape 
 	.Clk          (Clk     ) ,   //    here, (Clk) is required in Verilog, optional in SystemVerilog
-	.BranchEn     (Odd     ) ,   // input branch enable
+	.BranchEn     (BranchEn) ,   // input branch enable
     .Target       (PCTarg  ) ,   // input "how far?" during a branch
 	.ProgCtr      (PgmCtr  )	 // output program count = index to instruction memory
 	);
@@ -71,13 +72,18 @@ LUT LUT1(
 
 
 // reg file
+// if(Instruction[5:4] == 2'b11)
+// 	assign bit_ext = 1'b1; // checking registers are not full
+// else 
+	assign bit_ext = 1'b0;
+
 RegFile #(.W(8),.D(4)) RF1 (
 		.Clk    				,
 		.RegWriteEn(RegWrEn)    , 
 		//concatenate with 0 to give us 4 bits reg-address
-		.RaddrA    ({1'b0,Instruction[5:3]}),  // input address reg_a
-		.RaddrB    ({1'b0,Instruction[2:0]}),  // input address reg_b
-		.Waddr     ({1'b0,Instruction[5:3]}),  // input address reg_write
+		.RaddrA    ({bit_ext,Instruction[5:3]}),  // input address reg_a
+		.RaddrB    ({bit_ext,Instruction[2:0]}),  // input address reg_b
+		.Waddr     ({bit_ext,Instruction[5:3]}),  // input address reg_write
 		.DataIn    (RegWriteValue), 		   // input content reg_write
 		.DataOutA  (ReadA), 				   // output content reg_a
 		.DataOutB  (ReadB)					   // output content reg_b

@@ -30,10 +30,11 @@ module DataMem #(parameter W=8, A=8)(
 // you may initialize your memory w/ constants, if you wish
       for(int i = 0; i < 256; i++)
 	        Core[i] <= 0;
-      Core[0]   <= 62;     // overrides the 0  ***sample only***
-      Core[1]   <= 63;			
-      Core[2]   <= 64;			
-      Core[3]   <= 10'h20;		
+      Core[0]   <= 61;     // overrides the 0  ***sample only***
+      Core[1]   <= 62;			
+      Core[2]   <= 63;			
+      Core[3]   <= 64;			
+      Core[4]   <= 10'h20;		
   	end
     else if(WriteEn) 
       Core[DataAddress] <= DataIn;

@@ -1,40 +1,98 @@
-lw r0 #62  // 100 000 xxx 
-lw r1 #63  // 100 001 xxx
-lw r2      // 100 010 xxx
-lw r3      // 100 011 xxx
-lw r4      // 100 100 xxx
-lw r5      // 100 101 xxx
+lw r8 	#128 	// message_end
+lw r9 	#64	  // message_start
+lw r10 	#63	  // lfsr_start
+lw r11 	#62	  // lfsr_tap
+lw r12 	#61	  // pre_space
+lw r13 	#10	  // mincount
+lw r14 	#15 	// maxcount
 
-// For ALU ops regA[5:3] and regB[2:0]
+lw r0 #0 	  // i
+lw r1 #54 	// j
 
-xor r2 r1 #0x20  // 001 10 01 00
-sw r2 #64        // 101 10 ????
-and r4, r0, r1   // 011 ?? 00 01
+lw r2		// selecting starting lfsr state
+xor r10 r2	
+sw r2 
 
-shift left r1    // 010 01 00 01
-xor r2, r1       // 001 ?? 10 01
-shift left r2    // 010 10 00 01
-lbl
-sw r2 #64        // 101 10 ????
-add r3, r3, #1   // 000 11 11 01
-xor r4, r3       // 001 100 011
+lw r3		// setting up prepending space char
+xor r13 r3
+xor r12 r3
+sw r3
 
-bne lbl // 110 ??? ???
+step_1: 	// pre-fill message padded with ascii
+	add r0 r0 
+	xor r0 r1
+bne step_1
+
+step_2:		// overwrite up to 54 of spaces with message itself
+	add r0 #1
+	xor r0 r1
+bne step_2
+
+step_3:		// compute and store lfsr sequence
+	and r3 r0
+	shift left r3
+	xor r3 r1
+	add r3 r3 
+	xor r3 r0
+bne step_3
+
+step_4:		// encrypt 
+	xor r2 r0
+	add r2 r2
+bne step_4
+
+
+lw r0 #62 	// tap pattern
+lw r1 #63  // LFSR starting state
+lw r2
+lw r3      
+
+xor r2 r1 #0x20  // encrypt LSR starting state
+sw r2 #64        // store encrypted lfsr staring state
+
+and r4, r0, r1   // bitwise AND
+
+shift left r1   	 // left shift with input
+xor r2, r1       // encrypt LFSR state 2
+shift left r2    // left shift encrypted state
+
+sw r2 #64        // store r2 in location 64
+add r3, r3, #1   // r3++; what is r3 here?
+xor r4, r3       // r15 = r4 ^ r3 ?
+
+
+bne lbl
 
 // for-loop 1
-xor r // 001 ??? ???
-beq // ??? ??? ???
+
+xor r
+beq 
 
 // for-loop 2
-bne lbl2          // 110 ??? ???
-bne r2 #32        // 110 10 ????
-add r2, r1, r0    // 000 10 01 00
-branch lbl2       // ??? ??? ???
+bne lbl2
+bne r2 #32        // ideally str_length is in location 32? idk
+add r2, r1, r0    // msg_padded[pre_length+i] = message[i];
+branch lbl2
+
+// for-loop 3
+
+// Reduction-xor
+// r1 = 010001
+
+// for (i = 0; i <= 5; i++) {
+//    r2 = r1 << 1 = 010001 << 1 = 100010
+//    r1 = r1 ^ r2 = 010001 ^ 100010
+//    r2 = r2 << 1 = 100010 << 1 = 000100
+// }
+// r1 = r1 >> 5
+
+
 
 // helper
-1:               // ??? ??? ???
-  and r5, r8, r2 // 011 ?? ?? 10
-  ls1 r8, r8     // ??? ??? ???
-  b lbl          // ??? ??? ???
+1:
+  and r5, r8, r2 
+  ls1 r8, r8
+  b lbl
 
-stp // 111111111
+
+

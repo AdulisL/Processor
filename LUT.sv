@@ -12,7 +12,7 @@ module LUT(
   always_comb begin
     Target = 10'h001;	   // default to 1 (or PC+1 for relative)
     case(Addr)		   
-      3'b000:  Target = 10'h3f0;  //-16, move back 16 lines of machine code
+      3'b000:  Target = 10'h3f0;  //1008 - 2^10 = -16, move back 16 lines of machine code
       3'b001:	 Target = 10'h003;  // +3, 3 lines move forward
       3'b010:	 Target = 10'h007;  // +7, 7 lines
     endcase
