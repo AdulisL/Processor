@@ -21,24 +21,50 @@ def func_0(str_array):
     elif instruction == "and":
         func = "11"
     else:
-        print("error: " + instruction)
+        print("error: " + instruction + registers)
         
-    for r in registers:
-        if r == "r0":
-            reg += "00"
-        elif r == "r1":
-            reg += "01"
-        elif r == "r2":
-            reg += "10"
-        elif r == "r3":
-            reg += "11"
-        elif "#" in r:
-            reg += "11"
-        else:
-            print("error: " + r)
+    if len(registers) == 3:
+        for r in registers:
+            if r == "r0":
+                reg += "00"
+            elif r == "r1":
+                reg += "01"
+            elif r == "r2":
+                reg += "10"
+            elif r == "r3":
+                reg += "11"
+            elif "#" in r:
+                temp = r.replace("#","")
+                reg += str(format(int(temp), "b"))
+            else:
+                print("error: " + instruction + r)
+    else:
+        for r in registers:
+            if r == "r0":
+                reg += "000"
+            elif r == "r1":
+                reg += "001"
+            elif r == "r2":
+                reg += "010"
+            elif r == "r3":
+                reg += "011"
+            elif r == "r4":
+                reg += "100"
+            elif r == "r5":
+                reg += "101"
+            elif r == "r6":
+                reg += "110"
+            elif r == "r7":
+                reg += "111"
+            elif "#" in r:
+                # reg += "111"
+                temp = r.replace("#","")
+                reg += str(format(int(temp), "b"))
+            else:
+                print("error: " + instruction + r)
             
     return_txt = ''.join([opcode, func, reg])
-    if len(return_txt) != 9:
+    if len(return_txt) < 9:
         temp_len = 9 - len(return_txt)
         add_on = ""
         for i in range(temp_len):
@@ -60,7 +86,7 @@ def func_1(str_array):
     elif instruction == "bne":
         func = "10"
     else:
-        print("error: " + instruction)
+        print("error: " + instruction + registers)
         
     if len(registers) > 1:
         for r in registers:
@@ -81,9 +107,11 @@ def func_1(str_array):
             elif r == "r7":
                 reg += "111"
             elif "#" in r:
-                reg += "111"
+                # reg += "111"
+                temp = r.replace("#","")
+                reg += str(format(int(temp), "b"))
             else:
-                print("error: " + r)
+                print("error: " + instruction + r)
                 
     elif len(registers) == 1:
         if registers[0] == "r0":
@@ -118,11 +146,15 @@ def func_1(str_array):
             reg = "001110"
         elif registers[0] == "r15":
             reg = "001111"
+        elif "step_" in registers[0]:
+            temp = registers[0].replace("step_","")
+            temp = temp.replace(":","")
+            reg += str(format(int(temp), "b"))
     else:
-        print("error: " + registers)
+        print("error: " + instruction + registers)
 
     return_txt = ''.join([opcode, func, reg])
-    if len(return_txt) != 9:
+    if len(return_txt) < 9:
         temp_len = 9 - len(return_txt)
         add_on = ""
         for i in range(temp_len):
@@ -133,8 +165,9 @@ def func_1(str_array):
 
 def func_shift(str_array):
     if len(str_array) != 4:
-        print("what")
-        return "help"
+        print(str_array)
+        print("\nhelp")
+        return("help")
     opcode = "1"
     func = "10"
     
@@ -176,7 +209,7 @@ def func_shift(str_array):
         print("error: " + value)
     
     return_txt = ''.join([opcode, func, r_register, r_direction, r_value])
-    if len(return_txt) != 9:
+    if len(return_txt) < 9:
         temp_len = 9 - len(return_txt)
         add_on = ""
         for i in range(temp_len):
@@ -202,8 +235,14 @@ for line in assembly_file:
         return_txt = func_shift(str_array)
     elif instruction == "stp":
         return_txt = "111111111"
+    elif "step_" in instruction:
+        temp = instruction.replace("step_","")
+        temp = temp.replace(":","")
+        return_txt += str(format(int(temp), "b"))
+        continue
     else:
         print("error: undefined opcode " + instruction)
+        return_txt = instruction
     x_lines.append(return_txt)
 
 new_name = file_name + "_mach.txt"

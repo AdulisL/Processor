@@ -3,10 +3,10 @@
 #include <string.h>
 #include <fstream>
 #define MESSAGE_END   128
-#define MESSAGE_START  64 // r3
-#define LFSR_START 63 // r2
-#define LFSR_TAP 62 // r1
-#define PRE_SPACE 61 // r0
+#define MESSAGE_START  64
+#define LFSR_START 63
+#define LFSR_TAP 62
+#define PRE_SPACE 61
 #define MINCOUNT 10
 #define MAXCOUNT 15
 #define SPACE 0x20
@@ -88,19 +88,6 @@ byte lfsr_function(byte input){
 
 }
 
-byte reduct_xor(char input){
-    // ^1111_1110 = 1^1^1^1_1^1^1^0
-    char temp1 = input >> 4; // 1111_1110 = 0000_1110
-    char temp2 = temp1 ^ input;
-    char temp3 = temp2 >> 2;
-    char temp4 = temp2 ^ temp3;
-    char temp5 = temp4 >> 1;
-
-    char temp6 = temp5 ^ temp4;
-    return temp6;
-
-}
-
 char *encrypt (char * message){
     int i;
     int str_len = strlen(message); // incoming string length
@@ -124,24 +111,19 @@ char *encrypt (char * message){
 
     // Step_1: Pre-fill message padded with ASCII 0x20
     for (i = 0; i < MESSAGE_START; i++) {
-        msg_padded[i] = SPACE; // 0x20
+        msg_padded[i] = SPACE;
     }
-    // lw r0 #0
-    // lw r1 #54
+
     // Step_2: Overwrite up to 54 of these spaces w/ message itself
     for (i = 0; i < str_len; i++) {
         msg_padded[pre_length+i] = message[i]; // load the message
     }
-    // add r0 #1
-    // xor r1 r2
-    // bne Step_2 // LUT PrgCT = PrgCT - Targ (8 - 0101)
 
     // Step_3: Compute and store the LFSR sequence
     for(i = 0; i < LFSR_START; i++){
 //        lfsr_state[i+1] = lfsr_function(lfsr_state[i]);
-        lfsr_state[i + 1] = (lfsr_state[i] << 1) | reduct_xor( (lfsr_state[i] &
-        LFSR_ptrn[0]));
-        Parity[i] = reduct_xor( (lfsr_state[i] & LFSR_ptrn[0])); // Parity
+        lfsr_state[i + 1] = (lfsr_state[i] << 1) ^ (lfsr_state[i] &
+        LFSR_ptrn[0]);
     }
 
     // Step_4: Encrypt the message character-by-character, then prepend parity
@@ -175,7 +157,7 @@ int main() {
     to_read.clear();
 
     // Encryption
-    encrypted = encrypt(message);
+//    encrypted = encrypt(message);
 //    encrypted = message;
 
 
