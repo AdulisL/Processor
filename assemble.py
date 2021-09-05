@@ -166,6 +166,7 @@ def func_1(str_array):
 def func_shift(str_array):
     if len(str_array) != 4:
         print(str_array)
+        print("\nhelp")
         return("help")
     opcode = "1"
     func = "10"

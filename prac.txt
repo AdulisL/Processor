@@ -30,3 +30,4 @@ step_4
 	xor r2 r0
 	add r2 r2
 bne step_4
+stp
