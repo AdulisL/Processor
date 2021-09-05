@@ -32,10 +32,19 @@ def func_0(str_array):
             reg += "10"
         elif r == "r3":
             reg += "11"
+        elif "#" in r:
+            reg += "11"
         else:
             print(r)
             
     return_txt = ''.join([opcode, func, reg])
+    if len(return_txt) != 9:
+        temp_len = 9 - len(return_txt)
+        add_on = ""
+        for i in range(temp_len):
+            add_on += "1"
+        temp = ''.join([return_txt, add_on])
+        return_txt = temp
     return return_txt
 
 def func_1(str_array):
@@ -48,7 +57,7 @@ def func_1(str_array):
         func = "00"
     elif instruction == "sw":
         func = "01"
-    elif instruction == "beq":
+    elif instruction == "bne":
         func = "10"
     else:
         print(instruction)
@@ -70,6 +79,8 @@ def func_1(str_array):
             elif r == "r6":
                 reg += "110"
             elif r == "r7":
+                reg += "111"
+            elif "#" in r:
                 reg += "111"
             else:
                 print(r)
@@ -111,13 +122,16 @@ def func_1(str_array):
         print(registers)
 
     return_txt = ''.join([opcode, func, reg])
+    if len(return_txt) != 9:
+        temp_len = 9 - len(return_txt)
+        add_on = ""
+        for i in range(temp_len):
+            add_on += "1"
+        temp = ''.join([return_txt, add_on])
+        return_txt = temp
     return return_txt
 
 def func_shift(str_array):
-    if len(str_array) != 4:
-        print("what")
-        return "help"
-    
     opcode = "1"
     func = "10"
     
@@ -159,6 +173,13 @@ def func_shift(str_array):
         print(value)
     
     return_txt = ''.join([opcode, func, r_register, r_direction, r_value])
+    if len(return_txt) != 9:
+        temp_len = 9 - len(return_txt)
+        add_on = ""
+        for i in range(temp_len):
+            add_on += "1"
+        temp = ''.join([return_txt, add_on])
+        return_txt = temp
     return return_txt
 
 assembly_file  = open(file_name_ext, "r")
