@@ -1,0 +1,7 @@
+<<<<<<< HEAD
+00      // reg_file[0] r0
+63      // reg_file[1] r1
+=======
+00      // reg_file[0]
+64      // reg_file[1]
+>>>>>>> origin/main
