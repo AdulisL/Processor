@@ -1,6 +1,6 @@
 # Lab 4 - How to Run Our Processor
 ## CSE 141L Summer Session 2
-### Meron Asfaw, Anahita Afshari
+### Meron Asfaw, Anahita Afshari, Ivan Luu
 Our processor compiles and works in ModelSim, and we have included PDFs (RTL_Viewer.pdf) to view the structure.
 
 We had issues with our programs; because we created a very minimal instruction set architecture, we had issues then translating our C code, which is the basis of our encryption and decryption algorithms. 
